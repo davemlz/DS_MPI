@@ -50,7 +50,7 @@ main(int argc, char** argv)
                                 mysum = mysum + ( w_proc * (x_i * x_i * x_i) );
                         }
                         // Imprimir en pantalla
-						printf("Valor aproximado de la integral desde %g a %g de x elevado a la 3 = %g en el proceso %d\n",a_proc,b_proc,mysum,rank);
+			printf("Valor aproximado de la integral desde %g a %g de x elevado a la 3 = %g en el proceso %d\n",a_proc,b_proc,mysum,rank);
                         // Enviar suma parcial al proceso 0
                         MPI_Send(&mysum,1,MPI_DOUBLE,0,1,MPI_COMM_WORLD);
         }
