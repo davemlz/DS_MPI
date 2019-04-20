@@ -42,7 +42,7 @@ main(int argc, char** argv)
                   // Coordenada y
                   y = (double) rand()/RAND_MAX;
                   // Distancia al centro
-				  z = x*x+y*y;
+		  z = x*x+y*y;
                   // Verificar si la coordenada esta dentro del circulo
                   if(z <= 1) mycount++;
                 }
