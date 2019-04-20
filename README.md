@@ -9,3 +9,7 @@ Juan Manuel Valencia
 ## Contenido
 
 ### Montecarlo Pi
+
+### Integral
+
+### Métodos Numéricos
