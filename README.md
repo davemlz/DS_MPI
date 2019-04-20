@@ -2,9 +2,8 @@
 
 ## Creadores
 
-David Montero Loaiza
-
-Juan Manuel Valencia
+- David Montero Loaiza. email: david.montero@correounivalle.edu.co
+- Juan Manuel Valencia. emal. juan.valencia@correounivalle.edu.co
 
 ## Contenido
 
