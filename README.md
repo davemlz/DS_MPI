@@ -10,7 +10,7 @@
 ### Montecarlo Pi
 
 #### Implementación Secuencial
-La implementación secuencial del algoritmo de estimación de pi por el método de Montecarlo se encuentra en ´mcpi.c´.
+La implementación secuencial del algoritmo de estimación de pi por el método de Montecarlo se encuentra en `mcpi.c`.
 
 ### Integral por el Método del Rectángulo
 
