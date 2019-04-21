@@ -7,7 +7,8 @@
 
 ## Contenido
 
-### Montecarlo Pi `Montecarlo_pi`
+### Montecarlo Pi
+#### `Montecarlo_pi`
 
 - `mcpi.c`. Implementación secuencial del algoritmo de estimación de pi por el método de Montecarlo.
 - `mcpi_mpi.c`. Implementación distribuida del algoritmo de estimación de pi por el método de Montecarlo. En esta implementación, por cada proceso (exceptuando el proceso 0) se generarán un total de n puntos aleatorios y cada uno enviará al proceso 0 el conteo de los puntos que sí cumplen la condición del método de Montecarlo para que este estime el valor de pi.
