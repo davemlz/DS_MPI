@@ -26,7 +26,7 @@ Todas las implementaciones se encuentran definidas para integrar la función 'f(
 ### Integral por la Regla del Trapezoide
 #### `Trapezoidal_Rule_Integration`
 
-Todas las implementaciones se encuentran definidas para integrar la función 'f(x) = 1/(1+x*x)'.
+Todas las implementaciones se encuentran definidas para integrar la función 'f(x) = 1/(1+x^2)'.
 
 - `tri.c`. Implementación secuencial del algoritmo de estimación de una integral definida por la regla del trapezoide.
 - `tri_mpi.c`. Implementación distribuida del algoritmo de estimación de una integral definida por la regla del trapezoide. En esta implementación, cada proceso (exceptuando el proceso 0) se encargará de estimar el valor de la integral en un subrango definido dentro del rango definido de la función a integrar y de enviar esta estimación al proceso 0 para que se encargue de sumarlas y dar el valor total estimado de la integral definida.
