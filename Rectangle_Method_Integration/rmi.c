@@ -27,7 +27,7 @@ main(int argc, char* argv)
 	}
 	
 	// Imprimir en pantalla
-	printf("Valor aproximado de la integral desde 0 a 1 de x elevado a la 3 = %d\n",sum);
+	printf("Valor aproximado de la integral desde 0 a 1 de x elevado a la 3 = %g\n",sum);
 	
 	// Finalizar
 	return 0;
